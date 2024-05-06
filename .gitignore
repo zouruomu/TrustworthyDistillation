@@ -6,9 +6,17 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# CIFAR10 dataset
+# ignore large files
 EXP_CIFAR10/Data/
 EXP_TSRD/Data/
+EXP_CIFAR10/GeneratedFigures/
+EXP_TSRD/GeneratedFigures/
+EXP_CIFAR10/Models/
+EXP_TSRD/Models/
+EXP_CIFAR10/RunBackups/
+EXP_TSRD/RunBackups/
+EXP_TOY/GeneratedFigures/
+EXP_TOY/Models/
 
 # C extensions
 *.so
